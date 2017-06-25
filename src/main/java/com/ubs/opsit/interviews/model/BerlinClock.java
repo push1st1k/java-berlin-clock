@@ -22,7 +22,7 @@ public class BerlinClock implements Clock {
 
     @Override
     public String display() {
-        StringBuilder result = new StringBuilder(32);
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < out.length; i++) {
             for (int j = 0; j < out[i].length; j++) {
                 result.append(out[i][j]);
